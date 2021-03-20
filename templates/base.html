@@ -15,12 +15,15 @@
 
 {% block corecss %} 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
 {% endblock %}
 
 {% block extra_css %}
 {% endblock %}
 
 {% block corejs %}
+    <script src="https://kit.fontawesome.com/067e5a2c50.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 {% endblock %}
@@ -33,8 +36,84 @@
 
   <body>
     
-    <header class="container-fluid fixed-top">
-       
+        <header class="container-fluid fixed-top">
+        <div id="topnav" class="row bg-black d-lg-flex">
+           <div class="col-12 col-lg-3 mt-3">
+            <form method="GET" action="">
+                <div class="input-group w-100">
+                    <input class="form-control border grey-box" type="text" name="q" placeholder="Search our site">
+                        <div class="input-group-append">
+                            <button class="form-control btn btn-grey border" type="submit">
+                                <span class="icon">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </button>
+                        </div>
+                </div>
+            </form>
+            </div>
+
+            <div class="col-12 col-lg-6 my-auto text-center">
+                <a href="{% url 'home' %}" class="nav-link main-logo-link">
+                    <h2 class="my-auto logo"><strong>The Velvet Goldmine</strong></h2>
+                </a>
+            </div>
+
+            <div class="col-12 col-lg-3 my-auto ">
+                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                    <li class="list-inline-item dropdown">
+                        <a class="nav-link icon-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <div><i class="fas fa-user"></i></div>
+                                 <p class="my-0">My Account</p>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                            {% if request.user.is_authenticated %}
+                                {% if request.user.is_superuser %}
+                                    <a href="" class="dropdown-item">Product Management</a>
+                                {% endif %}
+                                <a href="" class="dropdown-item">My Profile</a>
+                                <a href="" class="dropdown-item">Logout</a>
+                            {% else %}
+                                <a href="" class="dropdown-item">Register</a>
+                                <a href="" class="dropdown-item">Login</a>
+                            {% endif %}
+                        </div>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link icon-link" href="">
+                            <div class="text-center">
+                                <div><i class="fas fa-shopping-bag"></i></div>
+                            </div>
+                            <p class="my-0">
+                                    {% if grand_total %}
+                                        ${{ grand_total|floatformat:2 }}
+                                    {% else %}
+                                        $0.00
+                                    {% endif %}
+                                </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      <div class="row bg-black">
+            <nav class="navbar navbar-expand-lg navbar-dark w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span ><i class="fas fa-bars"></i></span>
+                </button>
+           
+            </nav>
+        </div>
+        <div id="delivery-banner" class="row text-center">
+            <div class="col-12 bg-pink banner">
+                <h4 class="text-uppercase banner-text my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
+            </div>            
+        </div>
+        
+    </header>
+        
 
             
     {% if messages%}  
@@ -50,7 +129,11 @@
     {% block postloadjs %}
     {% endblock %}
 
-    </header>
+ <footer>
+     <div class="row bg-black">
+         <div class="col"></div>
+     </div>
+ </footer>
 
   
    

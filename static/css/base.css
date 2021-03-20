@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: calc(100vh - 164px);
+    background: #dee2e6;
+    font-family: 'Open sans', sans-serif;
+}
+
+/* Background Images*/
+.home-bg {
+    background: url('/media/home_bg.png');  
+
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  margin-top: 120px;
+}
+
+.logo {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color:#ee6aa7;
+    font-size: 3rem;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-pink {
+    background-color: #ee6aa7;
+}
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    color:#ee6aa7;
+}
+
+.fa,
+.fas {
+    color:#ee6aa7;
+    font-size: 1.75rem;
+}
+
+.fa-search {
+    font-size: 1.5rem;
+}
+
+a.icon-link {
+    color: #dee2e6;
+}
+
+.btn-grey {
+    background-color: #dee2e6;
+    border:#dee2e6;
+}
+
+
+.banner {
+    border-bottom: 2px solid black;
+    box-shadow: 3px 3px 7px black;
+}
+
+.banner-text {
+    font-weight: 700;
+}
+
+.shop-now-btn {
+    background-color: #ee6aa7;
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border: 3px solid black;
+    box-shadow: 3px 3px 7px black;
+}
+
+.shop-now-btn:hover,
+.shop-now-btn:active,
+.shop-now-btn:focus {
+    background-color: black;
+    color: #ee6aa7;
+    border: 3px solid #ee6aa7;
+    box-shadow: 3px 3px 7px #ee6aa7;
+}
+
+.grey-box {
+    background-color: #dee2e6;
+}
+
+input[name='q']::placeholder {
+    color: #ee6aa7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.display-3 {
+    font-weight: 500;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 1.5rem;
+    font-size: 6rem;
+}
+
+.home-text {
+    background-color: rgba(222, 226, 230, 0.3); 
+}
+
+footer {
+    bottom: 0;
+}

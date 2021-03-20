@@ -1,12 +1,29 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block content %}
-<div class="container">
-    <div class="row">
-        <div class="col">
-            
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
         </div>
     </div>
-</div>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid h-100 home-bg bg-image">
+        <div class="row h-100 home-text">
+            <div class="col-7 my-auto mt-3">
+                <h1 class="display-3 mt-4 text-center">
+                    Discover 
+                    <br>
+                    Your
+                    <br> 
+                    Style
+                </h1>
+            </div>
+                <div class="col-5 my-auto">
+                       <a href="" class="btn text-uppercase shop-now-btn py-2 rounded-0">Shop Now</a>
+                </div>
+        </div>
+    </div>
 {% endblock %}
