@@ -4,8 +4,37 @@ html {
 
 body {
     height: calc(100vh - 164px);
-    background: #dee2e6;
-    font-family: 'Open sans', sans-serif;
+}
+
+/* Navbar */
+.text-grey {
+    color: #dee2e6 !important;
+    text-transform: uppercase;
+}
+
+.text-grey:hover,
+.text-grey:active,
+.text-grey:focus {
+    color: #ee6aa7 !important;
+}
+
+.dropdown-menu {
+    background-color: #dee2e6;    
+    box-shadow: 0px 8px 16px 5px rgba(0,0,0,0.7);
+}
+
+.dropdown-item {
+    color: #ff077b;
+    font-weight: 400;
+}
+
+.dropdown-item:hover {
+    font-weight: bold;
+    color: #ff077b;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 /* Background Images*/
@@ -19,14 +48,16 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  position: relative;
+  position: relative; 
   margin-top: 120px;
+  max-height: 100%;
+
 }
 
 .logo {
     font-family: 'Sedgwick Ave Display', cursive;
     color:#ee6aa7;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .bg-black {
@@ -56,6 +87,7 @@ body {
     font-size: 1.5rem;
 }
 
+
 a.icon-link {
     color: #dee2e6;
 }
@@ -65,6 +97,9 @@ a.icon-link {
     border:#dee2e6;
 }
 
+.mobile-list {
+    padding-left: 0;
+}
 
 .banner {
     border-bottom: 2px solid black;
@@ -78,10 +113,10 @@ a.icon-link {
 .shop-now-btn {
     background-color: #ee6aa7;
     color: black;
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 1.75rem;
     border: 3px solid black;
-    box-shadow: 3px 3px 7px black;
+    box-shadow: 7px 7px 9px black;
 }
 
 .shop-now-btn:hover,
@@ -99,20 +134,73 @@ a.icon-link {
 
 input[name='q']::placeholder {
     color: #ee6aa7;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .display-3 {
     font-weight: 500;
     font-family: 'Permanent Marker', cursive;
     padding-left: 1.5rem;
+    padding-top: 4.5rem;
+    font-size: 9rem;
+    text-shadow: 5px 5px 9px black;
+}
+
+.display-4 {
+    font-weight: 500;
+    font-family: 'Permanent Marker', cursive;
+    padding-top:4rem;
     font-size: 6rem;
+    text-shadow: 5px 5px 9px black;
 }
 
 .home-text {
-    background-color: rgba(222, 226, 230, 0.3); 
+    background-color: rgba(222, 226, 230, 0.2); 
 }
 
 footer {
     bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: #ee6aa7;
+    position: fixed;
+}
+
+ .mobile-logo {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color:#ee6aa7;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 664px) {
+    .shop-now-btn {
+        font-size: 1.25rem;  
+        margin-top: 2rem; 
+    }
+
+    .display-4 {
+        font-size: 4.5rem;
+    }
+
+    .mobile-icon {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .nav-link.mobile-link {
+        padding: 0;
+    }
+
+    .mobile-item.list-inline-item {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-text {
+        font-size: 1rem;
+    }
 }
