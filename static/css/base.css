@@ -4,6 +4,7 @@ html {
 
 body {
     height: calc(100vh - 164px);
+    background-color: #dee2e6;
 }
 
 /* Navbar */
@@ -40,7 +41,6 @@ body {
 /* Background Images*/
 .home-bg {
     background: url('/media/home_bg.png');  
-
 }
 
 .bg-image {
@@ -48,12 +48,11 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  position: relative; 
+  position: relative;
   margin-top: 120px;
-  max-height: 100%;
-
 }
 
+/* Header */
 .logo {
     font-family: 'Sedgwick Ave Display', cursive;
     color:#ee6aa7;
@@ -67,6 +66,7 @@ body {
 .bg-pink {
     background-color: #ee6aa7;
 }
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -87,9 +87,12 @@ body {
     font-size: 1.5rem;
 }
 
-
 a.icon-link {
     color: #dee2e6;
+}
+
+.grey-box {
+    background-color: #dee2e6;
 }
 
 .btn-grey {
@@ -97,8 +100,8 @@ a.icon-link {
     border:#dee2e6;
 }
 
-.mobile-list {
-    padding-left: 0;
+input[name='q']::placeholder {
+    color: #ee6aa7;
 }
 
 .banner {
@@ -108,6 +111,40 @@ a.icon-link {
 
 .banner-text {
     font-weight: 700;
+}
+
+/* Mobile Header */
+.mobile-list {
+    padding-left: 0;
+}
+
+ .mobile-logo {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color:#ee6aa7;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+/* Home Page */
+.display-3 {
+    font-weight: 500;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 1.5rem;
+    padding-top: 4.5rem;
+    font-size: 8rem;
+    text-shadow: 5px 5px 9px black;
+}
+
+.display-4 {
+    font-weight: 500;
+    font-family: 'Permanent Marker', cursive;
+    padding-top:4rem;
+    font-size: 6rem;
+    text-shadow: 5px 5px 9px black;
+}
+
+.home-text {
+    background-color: rgba(222, 226, 230, 0.2); 
 }
 
 .shop-now-btn {
@@ -128,33 +165,56 @@ a.icon-link {
     box-shadow: 3px 3px 7px #ee6aa7;
 }
 
-.grey-box {
-    background-color: #dee2e6;
+/* Carousel */
+.carousel-container {
+    margin-top: 190px;
+    margin-bottom: 50px;
+}
+.carousel-cell {
+    width: 33%;
+    margin-right:10px; 
+    max-height: 320px; 
+    min-height: 280px; 
 }
 
-input[name='q']::placeholder {
-    color: #ee6aa7;
+.carousel-img {
+    position: relative;
+    text-align: center;
 }
 
-.display-3 {
-    font-weight: 500;
-    font-family: 'Permanent Marker', cursive;
-    padding-left: 1.5rem;
-    padding-top: 4.5rem;
-    font-size: 9rem;
-    text-shadow: 5px 5px 9px black;
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
 }
 
-.display-4 {
-    font-weight: 500;
-    font-family: 'Permanent Marker', cursive;
-    padding-top:4rem;
-    font-size: 6rem;
-    text-shadow: 5px 5px 9px black;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ee6aa7 !important;
+    font-size: 2.5rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: 700;
 }
 
-.home-text {
-    background-color: rgba(222, 226, 230, 0.2); 
+/* Cards */
+.card {
+    border-radius: 5px;   
+    box-shadow: 5px 5px 7px #85878a;
+}
+
+.card-body {
+    background-color: #c7cbcf;
+}
+
+/* Dividers */
+.pink-divider {
+    background-color: #ee6aa7;
 }
 
 footer {
@@ -165,13 +225,6 @@ footer {
     background-color: black;
     color: #ee6aa7;
     position: fixed;
-}
-
- .mobile-logo {
-    font-family: 'Sedgwick Ave Display', cursive;
-    color:#ee6aa7;
-    font-size: 2rem;
-    margin-top: 10px;
 }
 
 /* Media Queries */
