@@ -7,6 +7,11 @@ body {
     background-color: #dee2e6;
 }
 
+.header-container {
+    padding-top: 164px;
+}
+
+
 /* Navbar */
 .text-grey {
     color: #dee2e6 !important;
@@ -49,7 +54,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  margin-top: 120px;
 }
 
 /* Header */
@@ -167,7 +171,7 @@ input[name='q']::placeholder {
 
 /* Carousel */
 .carousel-container {
-    margin-top: 190px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 .carousel-cell {
@@ -176,6 +180,8 @@ input[name='q']::placeholder {
     max-height: 320px; 
     min-height: 280px; 
 }
+
+
 
 .carousel-img {
     position: relative;
@@ -202,6 +208,22 @@ input[name='q']::placeholder {
     font-weight: 700;
 }
 
+.random-carousel {
+    height: auto;
+}
+
+.random-carousel .flickity-page-dots {
+    display: none;
+}
+.carousel-cell.random {
+    width: 15%;
+    margin-right: 10px;
+    max-height: 200px;  
+}
+
+.rand-carousel-container {
+    display: inline;
+}
 /* Cards */
 .card {
     border-radius: 5px;   
