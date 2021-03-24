@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    height: calc(100vh - 164px);
+  /*  height: calc(100vh - 164px); */
     background-color: #dee2e6;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .header-container {
@@ -106,6 +107,7 @@ a.icon-link {
 
 input[name='q']::placeholder {
     color: #ee6aa7;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .banner {
@@ -224,19 +226,49 @@ input[name='q']::placeholder {
 .rand-carousel-container {
     display: inline;
 }
+
+.carousel-header {
+    color: #ee6aa7;
+    font-weight: 700;
+}
+
 /* Cards */
 .card {
     border-radius: 5px;   
-    box-shadow: 5px 5px 7px #85878a;
+    box-shadow: 3px 3px 5px #85878a; 
+    border: 2px solid #c7cbcf;
 }
 
 .card-body {
-    background-color: #c7cbcf;
+    background-color: #d0d0d0;
+    color: #ff3895;
+    font-weight: 600;
 }
 
 /* Dividers */
 .pink-divider {
     background-color: #ee6aa7;
+}
+
+.detail-hr {
+    width: 10%;
+    background-color: #ee6aa7;
+}
+
+.product-name {
+    font-size: 1.75rem;
+    color: #ee6aa7;
+}
+
+.product-price {
+    font-size: 1.25rem;
+}
+
+.breadcrumb {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #ee6aa7;
+    font-weight: 500;
 }
 
 footer {

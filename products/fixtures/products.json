@@ -4,12 +4,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00001",
-      "name": "Snake Print Shoulder Bag",
-      "description": "Beautiful snake print shoulder bag, adjustable and removable strap with stylish gold chain detail, zip closure with three internal compartments",
+      "name": "Valentina Shoulder Bag",
+      "description": "Beautiful snake print shoulder bag, adjustable and removable strap with stylish gold chain detail, zip closure with three internal compartments.",
       "price": 54.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1603402474489-65ea497f29e0?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjJ8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag1.png"
     }
@@ -19,11 +19,11 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00002",
-      "name": "Tropical Print Baguette",
-      "description": "Get those summer feels with this beautiful tropical print baguette. Front flap gold snap closure and detailing, top handle and removable strap",
+      "name": "Pina Colada Baguette",
+      "description": "Get those summer feels with this beautiful tropical print baguette. Front flap, gold snap closure and detailing, top handle and removable strap.",
       "price": 49.99,
       "has_sizes": false,
-      "category": 3,
+      "category": 5,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1591561954555-607968c989ab?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag2.png"
@@ -34,12 +34,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00003",
-      "name": "Bright Orange Baguette",
-      "description": "Stunning bright orange woven style baguette with handle and strap, snap closure. Perfect for theose lazy summer days.",
+      "name": "Athena Baguette",
+      "description": "Stunning bright orange woven style baguette with handle and strap, snap closure. Perfect for those lazy summer days.",
       "price": 39.99,
       "has_sizes": false,
       "category": 3,
-      "subcategory": null,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzZ8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag3.png"
     }
@@ -49,12 +49,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00004",
-      "name": "Velma Crossbody Bag in Pink",
-      "description": "Part of the Velma collection, this stylish crossbody bag in pink with yellow detail has a chain strap and seperated inner compartments and a cool retro look",
+      "name": "Pink Velma",
+      "description": "Part of the Velma collection, this stylish crossbody bag in pink with yellow detail has a chain strap and seperated inner compartments and a cool retro look.",
       "price": 54.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjF8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag4.png"
     }
@@ -64,12 +64,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00005",
-      "name": "Velma Crossbody Bag in lilac",
-      "description": "Part of the Velma collection, this stylish crossbody bag in lilac with pink detail has a chain strap and seperated inner compartments and a cool retro look",
+      "name": " Lilac Velma",
+      "description": "Part of the Velma collection, this stylish crossbody bag in lilac with pink detail has a chain strap and seperated inner compartments and a cool retro look.",
       "price": 54.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1566150902887-9679ecc155ba?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mzl8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag5.png"
     }
@@ -79,13 +79,13 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00006",
-      "name": "Velma Crossbody Bag in Yellow",
-      "description": "Part of the Velma collection, this stylish crossbody bag in yellow with pink detail has a chain strap and seperated inner compartments and a cool retro look",
+      "name": "Yellow Velma",
+      "description": "Part of the Velma collection, this stylish crossbody bag in yellow with pink detail has a chain strap and seperated inner compartments and a cool retro look.",
       "price": 54.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
-      "image_url": "",
+      "category": 5,
+      "subcategory": 18,
+      "image_url": "https://images.unsplash.com/photo-1566150905968-62f0de3d6df2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       "image": "bag6.png"
     }
   },
@@ -94,12 +94,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00007",
-      "name": "Croc Embossed Box Clutch",
-      "description": "Elegant croc embossed box clutch in teal with gold detailing, snap closure with swarovksi crystals and delicate gold chain strap",
+      "name": "Gabriella Clutch",
+      "description": "Elegant croc embossed box clutch in teal with gold detailing, snap closure with swarovksi crystals and delicate gold chain strap.",
       "price": 64.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1575296093822-95cb556a20ec?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjR8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag7.png"
     }
@@ -109,12 +109,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00008",
-      "name": "Teal Leather Baguette",
-      "description": "Elegant, real leather, teal baguette with gold detail",
+      "name": "Kinsley Baguette",
+      "description": "Elegant, real leather, teal baguette with gold detail.",
       "price": 39.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzB8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag8.png"
     }
@@ -125,11 +125,11 @@
     "fields": {
       "sku": "bag00008",
       "name": "PVC Baguette",
-      "description": "Cool, light reflecting PVC baguette with handle and adjustable/removable strap",
+      "description": "Cool, light reflecting PVC baguette with handle and adjustable/removable strap.",
       "price": 34.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1614809295882-b0dfb87914b1?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag9.png"
     }
@@ -139,12 +139,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00010",
-      "name": "Cobalt Blue Leather Baguette",
-      "description": "Stylish and cool cobalt blue leather baguette with silver detailing, 2 seperate compartments and inner back zip pocket",
+      "name": "Anna Baguette",
+      "description": "Stylish and cool cobalt blue leather baguette with silver detailing, 2 seperate compartments and inner back zip pocket.",
       "price": 45.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1560891958-68bb1fe7fb78?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzN8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag10.png"
     }
@@ -154,12 +154,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00011",
-      "name": "Patent Croc Embossed Leather Baguette",
-      "description": "Elegant and stylish patent leather croc embossed bag with gold details",
+      "name": "Aaliyah Bag",
+      "description": "Elegant and stylish patent leather croc embossed bag with gold details.",
       "price": 49.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1575032617751-6ddec2089882?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjh8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag11.png"
     }
@@ -169,12 +169,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00012",
-      "name": "Patent Croc Embossed Green Shoulder Bag",
-      "description": "Vagabond style patent, croc embossed green shoulder bag with silver double chain straps, 2 inner compartments and front pocket",
+      "name": "Danni Bag",
+      "description": "Vagabond style patent, croc embossed green shoulder bag with silver double chain straps, 2 inner compartments and front pocket.",
       "price": 57.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1572172793409-c3db4a0ca8df?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjd8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag12.png"
     }
@@ -184,12 +184,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00013",
-      "name": "Baby Pink Baguette",
-      "description": "Baby pink leather baguette with silver details, handle and adjustable strap",
+      "name": "Sophia Baguette",
+      "description": "Baby pink leather baguette with silver details, handle and adjustable strap.",
       "price": 39.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1574271143515-5cddf8da19be?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mzh8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag13.png"
     }
@@ -199,12 +199,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00014",
-      "name": "Suede and Leather Black Shoulder Bag",
-      "description": "Stylish black leather shoulder bag with suede flap and buckle detail and gold chain and fixtures",
+      "name": "Ava Shoulder Bag",
+      "description": "Stylish black leather shoulder bag with suede flap and buckle detail and gold chain and fixtures.",
       "price": 66.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1613482184847-44483b792eeb?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjZ8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag14.png"
     }
@@ -214,12 +214,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00015",
-      "name": "Blue Leather Shoulder Bag",
-      "description": "Blue leather shoulder/saddle style bag with tassle, gold details and removable/adjustable strap",
+      "name": "Skylar Bag",
+      "description": "Blue leather shoulder/saddle style bag with tassle, gold details and removable/adjustable strap.",
       "price": 30.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1605124130434-9cf3799b91aa?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzR8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag15.png"
     }
@@ -229,12 +229,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00016",
-      "name": "Braided Straw Shopper",
-      "description": "Beautiful braided straw shooper bag with leather handles and gold details",
+      "name": "Abigail Shopper",
+      "description": "Beautiful braided straw shopper bag with leather handles and gold details.",
       "price": 35.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1524679813234-66a389fe1a42?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjV8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag16.png"
     }
@@ -244,12 +244,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00017",
-      "name": "Bright Orange Shoulder Bag",
-      "description": "Funky bright orange shoulder bag with matching coin purse. Removable heavy chain strap which can be attached to the bag or the coin purse",
+      "name": "Tangerine Dream",
+      "description": "Funky bright orange shoulder bag with matching coin purse. Removable heavy chain strap which can be attached to the bag or the coin purse.",
       "price": 33.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1585488433963-2e35fb083e52?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzJ8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag17.png"
     }
@@ -259,12 +259,12 @@
     "model": "products.product",
     "fields": {
       "sku": "bag00017",
-      "name": "Purple Crossbody Messenger Bag",
-      "description": "Beautiful light purple square messenger style bag with handle and removable strap",
+      "name": "Purple Rain",
+      "description": "Beautiful light purple, square messenger style, crossbody bag with handle and removable strap.",
       "price": 59.99,
       "has_sizes": false,
-      "category": 3,
-      "subcategory": null,
+      "category": 5,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1604252637681-537dffeb680f?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjN8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag18.png"
     }
@@ -274,11 +274,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00001",
-      "name": "Tropical Print Jumpsuit",
-      "description": "Short sleeved, tropical print jumpsuit with tie waist, pockets and tapered ankles.Light weight, soft, 100% organic cotton",
+      "name": "Savannah Jumpsuit",
+      "description": "Short sleeved, tropical print jumpsuit with tie waist, pockets and tapered ankles.Light weight, soft, 100% organic cotton.",
       "price": 64.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 7,
       "image_url": "https://images.unsplash.com/photo-1599483459723-45dac3861601?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTc4fDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "jump1.png"
@@ -289,11 +289,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00002",
-      "name": "Spotted Print Dunagrees",
-      "description": "Black and white spotted wideleg dungarees. 100% organic cotton ",
+      "name": "Madison Dunagrees",
+      "description": "Black and white spotted wideleg dungarees. 100% organic cotton. ",
       "price": 59.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 7,
       "image_url": "https://images.unsplash.com/photo-1603216216563-50377abeddd0?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTc1fDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "jump2.png"
@@ -304,11 +304,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00003",
-      "name": "Grey Wideleg Jumpsuit",
-      "description": "Grey sleeveless, wideleg jumpsuit with tie waist. 100% organic cotton",
+      "name": "Luna Jumpsuit",
+      "description": "Grey sleeveless, wideleg jumpsuit with tie waist. 100% organic cotton.",
       "price": 60.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 7,
       "image_url": "https://images.unsplash.com/photo-1545291730-faff8ca1d4b0?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTYxfDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "jump3.png"
@@ -319,11 +319,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00004",
-      "name": "Dark Denim Slim Leg Dungarees",
-      "description": "Dark blue, distressed denim dungarees, slim leg with ankle turn ups. 100% organic denim",
+      "name": "Riley 'Rees",
+      "description": "Dark blue, distressed denim dungarees, slim leg with ankle turn ups. 100% organic denim.",
       "price": 76.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 7,
       "image_url": "https://images.unsplash.com/photo-1609324120004-364275e0ad05?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTM1fDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "jump4.png"
@@ -334,11 +334,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00005",
-      "name": "Striped Palazzo Pants",
+      "name": "Willow Pants",
       "description": "Highwaisted, wideleg, black and white striped palazzo pants. Super soft and super trendy.",
       "price": 49.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 9,
       "image_url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjE2fDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "pant1.png"
@@ -349,11 +349,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00006",
-      "name": "Slim Leg Joggers",
-      "description": "Slim fit black joggers with yellow waistband and stripe and black and white checkered detail. 100% organic cotton",
+      "name": "Aubrey Joggers",
+      "description": "Slim fit black joggers with yellow waistband and stripe and black and white checkered detail. 100% organic cotton.",
       "price": 39.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 8,
       "image_url": "https://images.unsplash.com/photo-1550703723-9b4fe78fa718?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODl8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "pant2.png"
@@ -364,11 +364,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00007",
-      "name": "Bright Yellow Joggers",
-      "description": "Bright yellow, highwaisted, draw string joggers with tapered ankles and pockets. 100% organic cotton",
+      "name": "Addison Joggers",
+      "description": "Bright yellow, highwaisted, draw string joggers with tapered ankles and pockets. 100% organic cotton.",
       "price": 36.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 8,
       "image_url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjExfDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "pant3.png"
@@ -379,11 +379,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00008",
-      "name": "Pink Highwaisted Joggers",
+      "name": "Maya Joggers",
       "description": "Highwaisted dusky pink joggers with front pockets and tapered ankles. Super soft 100% organic cotton.",
       "price": 34.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 8,
       "image_url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTM2fDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "pant4.png"
@@ -393,38 +393,7 @@
     "pk": 27,
     "model": "products.product",
     "fields": {
-      "sku": "pant00009",
-      "name": "Highwaisted Fitted Black Cropped Slacks",
-      "description": "Highwaisted fitted, stretch black slacks, slim leg, cropped at the ankle",
-      "price": 44.99,
-      "has_sizes": true,
-      "category": 7,
-      "subcategory": 9,
-      "image_url": "",
-      "image": "pant5.png"
-    }
-  },
-  {
-    "pk": 28,
-    "model": "products.product",
-    "fields": {
-      "sku": "pant00010",
-      "name": "Highwaisted Black Slacks",
-      "description": "Highwaisted, cropped, straight leg, black slacks with split waist.",
-      "price": 39.99,
-      "has_sizes": true,
-      "category": 7,
-      "subcategory": 9,
-      "image_url": "",
-      "image": "pant6.png"
-    }
-  },
-  {
-    "pk": 29,
-    "model": "products.product",
-    "fields": {
-      "sku": "pant00011",
-      "name": "Leather Look Joggers",
+      "name": "Selma Joggers",
       "description": "Highwaisted leather look black joggers with tapered ankles",
       "price": 31.99,
       "has_sizes": true,
@@ -435,15 +404,45 @@
     }
   },
   {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "dre00037",
+      "name": "Pink Prima",
+      "description": "Hot pink mini dress with exaggerated frill and long sleeves. ",
+      "price": 64.99,
+      "has_sizes": true,
+      "category": 2,
+      "subcategory": 2,
+      "image_url": "https://images.pexels.com/photos/1143533/pexels-photo-1143533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image": "dress37.png"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "dre00038",
+      "name": "Buttercup",
+      "description": "Yellow and orange patterned, sleeveless mini dress with circle skirt and midriff cutout.",
+      "price": 59.99,
+      "has_sizes": true,
+      "category": 2,
+      "subcategory": 2,
+      "image_url": "https://images.pexels.com/photos/1390130/pexels-photo-1390130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image": "dress38.png"
+    }
+  },
+  {
     "pk": 30,
     "model": "products.product",
     "fields": {
       "sku": "pant00012",
-      "name": "Highwaisted, Black Belted Slacks",
-      "description": "Highwaisted, straight leg slacks with double buckle belt",
+      "name": "Aurora Pants",
+      "description": "Highwaisted, straight leg slacks with double buckle belt.",
       "price": 36.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 9,
       "image_url": "https://images.unsplash.com/photo-1578776691547-8cc984f5d3f8?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODd8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "pant8.png"
@@ -454,11 +453,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00013",
-      "name": "Navy Loose Fit Jumpsuit",
-      "description": "Loose fit, strappy, navy jumpsuit, gathered waist, wide leg. 100% organic cotton",
+      "name": "Kennedy Jumpsuit",
+      "description": "Loose fit, strappy, navy jumpsuit, gathered waist, wide leg. 100% organic cotton.",
       "price": 69.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 7,
       "image_url": "https://images.unsplash.com/photo-1567284705416-b3b6e635720d?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTc0fDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "pant9.png"
@@ -469,11 +468,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00014",
-      "name": "Grey Wide Leg Slacks",
-      "description": "Grey extra wide leg, ankle length slacks with crochet detail",
+      "name": "The Harpper Pant",
+      "description": "Grey extra wide leg, ankle length slacks with crochet detail.",
       "price": 55.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 9,
       "image_url": "https://images.pexels.com/photos/914668/pexels-photo-914668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "pant111.png"
@@ -484,11 +483,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00015",
-      "name": "Pink and Grey Plaid Slacks",
-      "description": "Pink and grey straight leg plaid slacks with pockets. 100% wool",
+      "name": "Brooklyn Pant",
+      "description": "Pink and grey straight leg plaid slacks with pockets. 100% wool.",
       "price": 58.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 9,
       "image_url": "https://images.pexels.com/photos/952627/pexels-photo-952627.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "pant112.png"
@@ -499,11 +498,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00016",
-      "name": "Striped Capri Pants",
-      "description": "Light weight summer, blue and red strips on white capri pants. 100%  organic linen",
+      "name": "Lollipop",
+      "description": "Light weight summer, blue and red strips on white capri pants. 100%  organic linen.",
       "price": 29.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 9,
       "image_url": "https://images.pexels.com/photos/975005/pexels-photo-975005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "pant113.png"
@@ -514,11 +513,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00017",
-      "name": "Red Skinny Printed Trousers",
-      "description": "Super cool red high waisted, ankle length, skinny fit with black pattern",
+      "name": "Ruby Red",
+      "description": "Super cool, red high waisted, ankle length, skinny fit with black pattern.",
       "price": 45.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 9,
       "image_url": "https://images.pexels.com/photos/1075776/pexels-photo-1075776.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "pant114.png"
@@ -529,11 +528,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00018",
-      "name": "Hot Pink Slim Fit Slacks",
+      "name": "Penelope Pink",
       "description": "Hot Pink slim fit, high waist, ankle length trousers.",
       "price": 39.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 9,
       "image_url": "https://images.pexels.com/photos/1269998/pexels-photo-1269998.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "pant115.png"
@@ -544,11 +543,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00019",
-      "name": "Wet Look Skinny Faux Leather Trousers",
-      "description": "High waist, skinny fit, wet look, leather trousers.",
+      "name": "The Jerri Pant",
+      "description": "High waist, skinny fit, wet look, faux leather trousers.",
       "price": 46.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 9,
       "image_url": "https://images.pexels.com/photos/2647887/pexels-photo-2647887.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "pant116.png"
@@ -559,11 +558,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pant00020",
-      "name": "Leather Look Cargo Pants",
+      "name": "The Cargo Pant",
       "description": "Leather look, high waist cargo pants with tapered ankles.",
       "price": 69.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 6,
       "subcategory": 8,
       "image_url": "https://images.pexels.com/photos/3374434/pexels-photo-3374434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "pant117.png"
@@ -574,11 +573,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00001",
-      "name": "Multicoloured Parka",
-      "description": "Mulitcoloured parka with hood, tie waist and full length zip and front pockets",
+      "name": "Squared",
+      "description": "Mulitcoloured parka with hood, tie waist and full length zip and front pockets.",
       "price": 89.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.pexels.com/photos/2703039/pexels-photo-2703039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "coat111.png"
@@ -589,11 +588,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00002",
-      "name": "Hot Pink Teddy Bear Coat",
-      "description": "Cozy hot pink, knee length, teddy bear coat with pockets",
+      "name": "Bubblegum",
+      "description": "Cozy hot pink, knee length, teddy bear coat with pockets.",
       "price": 74.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.pexels.com/photos/4269551/pexels-photo-4269551.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "coat112.png"
@@ -604,11 +603,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00003",
-      "name": "Bottle Green Shag Coat",
-      "description": "Funky bottle green shaggy jacket",
+      "name": "Layla Shag",
+      "description": "Funky bottle green shaggy jacket.",
       "price": 59.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.pexels.com/photos/1040173/pexels-photo-1040173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "image": "coat113.png"
@@ -619,11 +618,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00004",
-      "name": "Full Length Charcoal Trench Coat",
-      "description": "Full Length charcoal Trench style coat with wide lapels and button closures. 100% wool",
+      "name": "Charlie Coat",
+      "description": "Full Length, charcoal Trench style coat with wide lapels and button closures. 100% wool",
       "price": 118.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1601762319935-963f5b1869ad?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHwyMTg0ODUxMHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat1.png"
@@ -634,11 +633,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00005",
-      "name": "Bright Blue Cape Style Coat",
-      "description": "Stunning bright blue mid length cape coat. 100% wool",
+      "name": "Alice in Wonderland",
+      "description": "Stunning bright blue, mid length, cape coat. 100% wool.",
       "price": 92.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1607778002069-c6a249decefb?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat2.png"
@@ -649,11 +648,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00006",
-      "name": "Mid Length Tan Wrap Coat",
-      "description": "Mid length wrap style coat in tan with belt. 100% wool",
+      "name": "All Wrapped Up",
+      "description": "Mid length wrap style coat in tan with belt. 100% wool.",
       "price": 70.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat3.png"
@@ -664,11 +663,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00007",
-      "name": "Faux Fur Swing Coat",
-      "description": "Beautiful faux fur open coat with pockets. Stylish and incredibly comfortable.",
+      "name": "Vintage Vibes",
+      "description": "Beautiful faux fur, open, swing style coat with pockets. Stylish and incredibly comfortable.",
       "price": 59.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1610093066342-aec25a125bf5?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTF8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat4.png"
@@ -683,7 +682,7 @@
       "description": "Mid length, light weight shirt style khaki jacket with button details. Perfect for summer days. 100% organic cotton.",
       "price": 49.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1543402259-a43ca487414d?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OXwyMTg0ODUxMHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat5.png"
@@ -698,7 +697,7 @@
       "description": "Grey plaid boyfriend style blazer.",
       "price": 48.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1608234808654-2a8875faa7fd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wyMTg0ODUxMHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "image": "coat6.png"
@@ -709,11 +708,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00010",
-      "name": "Blue Pea Coat ",
-      "description": "Light blue, 3/4 length pea coat with black button details. 100% wool",
+      "name": "True Blue",
+      "description": "Light blue, 3/4 length pea coat with black button details. 100% wool.",
       "price": 84.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1583846724527-80ceecb9b80c?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwyMTg0ODUxMHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat7.png"
@@ -724,11 +723,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00011",
-      "name": "Red Pea Coat",
-      "description": "Red midlength pea coat. 100% wool",
+      "name": "Red Rose",
+      "description": "Red midlength pea coat. 100% wool.",
       "price": 60.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1612258852586-444b4c3cbf8a?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTUyfDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat9.png"
@@ -739,11 +738,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00012",
-      "name": "Black Button Up Coat",
-      "description": "Black midlength, side button up coat with frill detail on collar and cuffs. 100% wool",
+      "name": "Elle Coat",
+      "description": "Black midlength, side button up coat with frill detail on collar and cuffs. 100% wool.",
       "price": 66.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMTg0ODUxMHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "image": "coat10.png"
@@ -754,11 +753,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00013",
-      "name": "Red Teddy Bear Coat",
-      "description": "Super cozy oversized, red teddy bear coat",
+      "name": "Reddy Teddy",
+      "description": "Super cozy oversized, red teddy bear coat.",
       "price": 39.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1560252659-bed3ad25ed67?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTJ8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat11.png"
@@ -769,11 +768,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00014",
-      "name": "Bright Yellow Pea Coat",
-      "description": "Bright yellow midlength pea coat with black button details. 100% wool",
+      "name": "Limoncello",
+      "description": "Bright yellow midlength pea coat with black button details. 100% wool.",
       "price": 88.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1568622236513-cdda495c7221?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat12.png"
@@ -784,11 +783,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00015",
-      "name": "Pink Full Length Teddy Bear Coat",
+      "name": "Teddy Bears Picnic",
       "description": "Pink full length teddy bear style trench coat.",
       "price": 69.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/flagged/photo-1554033750-2137b5cfd7ce?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NnwyMTg0ODUxMHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat15.png"
@@ -799,11 +798,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00016",
-      "name": "Midlength Wrap Coat",
+      "name": "Harmony Wrap",
       "description": "Salmon, oversized, midlength, belted wrap coat.",
       "price": 54.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1591900947067-851789555ef3?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat16.png"
@@ -814,11 +813,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00017",
-      "name": "Leather Trench Coat",
+      "name": "Quinn Trench",
       "description": "Full length, soft leather trench coat.",
       "price": 138.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1597582928171-e0f0b91381c2?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3wyMTg0ODUxMHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat17.png"
@@ -833,7 +832,7 @@
       "description": "Pink 3/4 length shaggy, duster style coat.",
       "price": 74.99,
       "has_sizes": true,
-      "category": 1,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/flagged/photo-1575364487508-ef1254107baf?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTB8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat19.png"
@@ -844,11 +843,11 @@
     "model": "products.product",
     "fields": {
       "sku": "out00019",
-      "name": "Pink Suede Blazer",
-      "description": "Pink suede open blazer with braiding detail. 100% real suede",
+      "name": "Raspberry Beret",
+      "description": "Pink suede open blazer with braiding detail. 100% real suede.",
       "price": 66,
       "has_sizes": true,
-      "category": 3,
+      "category": 7,
       "subcategory": null,
       "image_url": "https://images.unsplash.com/photo-1596725710311-1867ffa3268f?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTc3fDIxODQ4NTEwfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "coat20.png"
@@ -860,7 +859,7 @@
     "fields": {
       "sku": "dre00001",
       "name": "Mimi Halter Mini Dress",
-      "description": "Be the centre of attention in any room in this stunning brown and gold halter mini dress with embroidered details and plunging neckline",
+      "description": "Be the centre of attention in any room in this stunning brown and gold halter mini dress with embroidered details and plunging neckline.",
       "price": 84.99,
       "has_sizes": true,
       "category": 2,
@@ -935,7 +934,7 @@
     "fields": {
       "sku": "dre00006",
       "name": "Laura-Jane Dress",
-      "description": "Shirt style maxi dress, colourful pattern with buttons to the gathered waist, 3/4 length sleeves ",
+      "description": "Shirt style maxi dress, colourful pattern with buttons to the gathered waist, 3/4 length sleeves. ",
       "price": 54.99,
       "has_sizes": true,
       "category": 2,
@@ -950,7 +949,7 @@
     "fields": {
       "sku": "dre00007",
       "name": "Stacey Mini Dress",
-      "description": "Stunning metallic silver, sequined mini dress, puff shoulder and 3/4 sleeve",
+      "description": "Stunning metallic silver, sequined mini dress, puff shoulder and 3/4 sleeve.",
       "price": 74.99,
       "has_sizes": true,
       "category": 2,
@@ -995,7 +994,7 @@
     "fields": {
       "sku": "dre00010",
       "name": "Victoria Dress",
-      "description": "White empire style maxi dress, wide shoulder, sleeveless and roll collar",
+      "description": "White empire style maxi dress, wide shoulder, sleeveless and roll collar.",
       "price": 109.99,
       "has_sizes": true,
       "category": 2,
@@ -1040,7 +1039,7 @@
     "fields": {
      "sku": "dre00013",
       "name": "Charlotte Dress",
-      "description": "Teal, chiffon maxi dress with frill detail, gathered waist, long, wide sleeves",
+      "description": "Teal, chiffon maxi dress with frill detail, gathered waist, long, puff sleeves.",
       "price": 99.99,
       "has_sizes": true,
       "category": 2,
@@ -1054,8 +1053,8 @@
     "model": "products.product",
     "fields": {
       "sku": "dre00014",
-      "name": "Jamie Dress - Burgandy",
-      "description": "Cordurory button down midi dress, gathered waist, loose fit",
+      "name": "Jamie Dress Burgandy",
+      "description": "Burgandy cordurory button down midi dress, gathered waist, loose fit.",
       "price": 69.99,
       "has_sizes": true,
       "category": 2,
@@ -1069,8 +1068,8 @@
     "model": "products.product",
     "fields": {
       "sku": "dre00015",
-      "name": "Jamie Dress - Charcoal Grey",
-      "description": "Cordurory button down midi dress, gathered waist, loose fit",
+      "name": "Jamie Dress Charcoal",
+      "description": "Charcooal grey cordurory button down midi dress, gathered waist, loose fit.",
       "price": 69.99,
       "has_sizes": true,
       "category": 2,
@@ -1085,7 +1084,7 @@
     "fields": {
      "sku": "dre00016",
       "name": "Suzie Dress",
-      "description": "70's style bright orange, drop waist mini dress",
+      "description": "70's style bright orange, drop waist mini dress.",
       "price": 79.99,
       "has_sizes": true,
       "category": 2,
@@ -1100,7 +1099,7 @@
     "fields": {
       "sku": "dre00017",
       "name": "Tina Dress",
-      "description": "Patterned, halter neck, bodycon mini dress",
+      "description": "Patterned, halter neck, bodycon mini dress.",
       "price": 59.99,
       "has_sizes": true,
       "category": 2,
@@ -1160,7 +1159,7 @@
     "fields": {
       "sku": "dre00021",
       "name": "Leah Dress",
-      "description": "Bright orange A-line, midi summer dress, v-neck and spagetti straps ",
+      "description": "Bright orange A-line, midi summer dress, v-neck and spagetti straps.",
       "price": 36.99,
       "has_sizes": true,
       "category": 2,
@@ -1205,7 +1204,7 @@
     "fields": {
       "sku": "dre00024",
       "name": "Daisy Dress",
-      "description": "Sleeveless orange, A-line style midi dress with flower print and belt, v-neck",
+      "description": "Sleeveless orange, A-line style midi dress with flower print and belt, v-neck.",
       "price": 59.99,
       "has_sizes": true,
       "category": 2,
@@ -1235,7 +1234,7 @@
     "fields": {
      "sku": "dre00026",
       "name": "Sally Dress",
-      "description": "Khaki, A-line, long-sleeved maxi dress",
+      "description": "Khaki, A-line, long-sleeved maxi dress.",
       "price": 89.99,
       "has_sizes": true,
       "category": 2,
@@ -1265,7 +1264,7 @@
     "fields": {
       "sku": "dre00028",
       "name": "Zaza Dress",
-      "description": "Bodycon, pale pink mini dress with bodice top",
+      "description": "Bodycon, pale pink mini dress with bodice top.",
       "price": 77.99,
       "has_sizes": true,
       "category": 2,
@@ -1310,7 +1309,7 @@
     "fields": {
       "sku": "dre00031",
       "name": "Mia Dress",
-      "description": "Satin, teal and orange, grandad shirt style mini dress",
+      "description": "Satin, teal and orange, grandad shirt style mini dress.",
       "price": 57.99,
       "has_sizes": true,
       "category": 2,
@@ -1340,7 +1339,7 @@
     "fields": {
       "sku": "acc00002",
       "name": "Golden Leaf",
-      "description": "Gold leaf with blue gold and pearl beading",
+      "description": "Gold leaf with blue gold and pearl beading.",
       "price": 29.99,
       "has_sizes": false,
       "category": 5,
@@ -1355,7 +1354,7 @@
     "fields": {
       "sku": "acc00003",
       "name": "Gold Trio",
-      "description": "Trio of 24carat gold delicate bangles that beautifully complement each other",
+      "description": "Trio of 24carat gold delicate bangles that beautifully complement each other.",
       "price": 44.99,
       "has_sizes": false,
       "category": 5,
@@ -1370,7 +1369,7 @@
     "fields": {
       "sku": "acc00004",
       "name": "Bluebell",
-      "description": "Stunning blue and clear crystals set in gold, drop earrings. For pierced ears",
+      "description": "Stunning blue and clear crystals set in gold, drop earrings. For pierced ears.",
       "price": 32.99,
       "has_sizes": false,
       "category": 5,
@@ -1400,7 +1399,7 @@
     "fields": {
       "sku": "acc00006",
       "name": "Silver Braid",
-      "description": "Chunky metal braided chain",
+      "description": "Chunky metal braided chain.",
       "price": 25.99,
       "has_sizes": false,
       "category": 5,
@@ -1430,7 +1429,7 @@
     "fields": {
       "sku": "acc00008",
       "name": "Rose Drop",
-      "description": "Delicate rose gold chain duo with pendants",
+      "description": "Delicate rose gold chain duo with pendants.",
       "price": 42.99,
       "has_sizes": false,
       "category": 5,
@@ -1445,7 +1444,7 @@
     "fields": {
       "sku": "acc00009",
       "name": "Eye Spy",
-      "description": "Gold hoops with gold and glass eye detail. For pieced ears",
+      "description": "Gold hoops with gold and glass eye detail. For pieced ears.",
       "price": 22.99,
       "has_sizes": false,
       "category": 5,
@@ -1490,7 +1489,7 @@
     "fields": {
       "sku": "acc00012",
       "name": "Lady in Pink",
-      "description": "Pink beading and tassle and gold detailing around an enamel lady",
+      "description": "Pink beading and tassle and gold detailing around an enamel lady.",
       "price": 25.99,
       "has_sizes": false,
       "category": 5,
@@ -1505,7 +1504,7 @@
     "fields": {
       "sku": "acc00013",
       "name": "Envy",
-      "description": "Green enamel bangle with diamantes and gold trim ",
+      "description": "Green enamel bangle with diamantes and gold trim.",
       "price": 47.99,
       "has_sizes": false,
       "category": 5,
@@ -1520,7 +1519,7 @@
     "fields": {
       "sku": "acc00015",
       "name": "Chain of Fools",
-      "description": "Long, layered, 24 carat gold chain with pendant",
+      "description": "Long, layered, 24 carat gold chain with pendant.",
       "price": 49.99,
       "has_sizes": false,
       "category": 5,
@@ -1580,7 +1579,7 @@
     "fields": {
       "sku": "acc00019",
       "name": "Blue Planet",
-      "description": "Sterling silver and blue drop earrings. ",
+      "description": "Sterling silver and blue drop earrings.",
       "price": 79.99,
       "has_sizes": false,
       "category": 5,
@@ -1640,7 +1639,7 @@
     "fields": {
       "sku": "acc00023",
       "name": "Jaylo",
-      "description": "Teal and red glitter, bakelite, oversized frames with ombre lenses",
+      "description": "Teal and red glitter, bakelite, oversized frames with ombre lenses.",
       "price": 37.99,
       "has_sizes": false,
       "category": 5,
@@ -1670,7 +1669,7 @@
     "fields": {
       "sku": "acc00025",
       "name": "Hepburn",
-      "description": "Peach tinted frames with gold embellishments",
+      "description": "Peach tinted frames with gold embellishments.",
       "price": 27.99,
       "has_sizes": false,
       "category": 5,
@@ -1715,7 +1714,7 @@
     "fields": {
       "sku": "acc00028",
       "name": "California Girl",
-      "description": "Round yellow frames with dark lenses",
+      "description": "Round yellow frames with dark lenses.",
       "price": 27.99,
       "has_sizes": false,
       "category": 5,
@@ -1745,7 +1744,7 @@
     "fields": {
       "sku": "acc00030",
       "name": "Nikkita",
-      "description": "Oversized round frames with dark tinted, extended cat eye lenses",
+      "description": "Oversized round frames with dark tinted, exaggerated cat eye lenses.",
       "price": 33.99,
       "has_sizes": false,
       "category": 5,
@@ -1775,7 +1774,7 @@
     "fields": {
       "sku": "acc00032",
       "name": "Turquoise Skies",
-      "description": "Black and silver, square frames with mirrored turquoise lenses",
+      "description": "Black and silver, square frames with mirrored turquoise lenses.",
       "price": 25.99,
       "has_sizes": false,
       "category": 5,
@@ -1805,7 +1804,7 @@
     "fields": {
       "sku": "acc00034",
       "name": "Boss Lady",
-      "description": "Oversized, tortoise frames with light tinted lense.",
+      "description": "Oversized, tortoise frames with light tinted lenses.",
       "price": 36.99,
       "has_sizes": false,
       "category": 5,
@@ -1820,7 +1819,7 @@
     "fields": {
       "sku": "acc00035",
       "name": "Blushing Zebra",
-      "description": "Rounded, black and pink striped frames with pink lenses. ",
+      "description": "Rounded, black and pink striped frames with pink lenses.",
       "price": 29.99,
       "has_sizes": false,
       "category": 5,
@@ -1835,7 +1834,7 @@
     "fields": {
       "sku": "sho00001",
       "name": "Bejazzled",
-      "description": "Tall, silver glitter boots. 2.5inch heel",
+      "description": "Tall, silver glitter boots. 2.5inch heel.",
       "price": 89.99,
       "has_sizes": true,
       "category": 1,
@@ -1850,7 +1849,7 @@
     "fields": {
       "sku": "sho00002",
       "name": "Little Miss Sunshine",
-      "description": "Patent yellow leather, lace-up boots. ",
+      "description": "Patent yellow leather, lace-up boots.",
       "price": 179.99,
       "has_sizes": true,
       "category": 1,
@@ -1865,7 +1864,7 @@
     "fields": {
       "sku": "sho00003",
       "name": "Two-Tone",
-      "description": "Two tone, grey and blue suede ankle boots. 3inch heel",
+      "description": "Two tone, grey and blue suede ankle boots. 3inch heel.",
       "price": 79.99,
       "has_sizes": true,
       "category": 1,
@@ -1880,7 +1879,7 @@
     "fields": {
       "sku": "sho00004",
       "name": "Snake Charmer",
-      "description": "Thigh high, snake skin boots. 3inch heel",
+      "description": "Thigh high, snake skin boots. 3inch heel.",
       "price": 84.99,
       "has_sizes": true,
       "category": 1,
@@ -1910,7 +1909,7 @@
     "fields": {
       "sku": "sho00006",
       "name": "Graphic Nike",
-      "description": "Graphic Print Nike Trainers",
+      "description": "Graphic Print Nike Trainers.",
       "price": 129.99,
       "has_sizes": true,
       "category": 1,
@@ -1940,7 +1939,7 @@
     "fields": {
       "sku": "sho00008",
       "name": "Blue Bouquet",
-      "description": "Blue satin heels with flower pattern",
+      "description": "Blue satin heels with flower pattern.",
       "price": 69.99,
       "has_sizes": true,
       "category": 1,
@@ -1955,7 +1954,7 @@
     "fields": {
       "sku": "sho00009",
       "name": "Black Booties",
-      "description": "Black open booties with hole punch design and stiletto heel",
+      "description": "Black open booties with hole punch design and stiletto heel.",
       "price": 64.99,
       "has_sizes": true,
       "category": 1,
@@ -1970,7 +1969,7 @@
     "fields": {
       "sku": "sho00010",
       "name": "Bow Peep",
-      "description": "Satin pink, sling backs with kitten heel",
+      "description": "Satin pink, sling backs with kitten heel.",
       "price": 49.99,
       "has_sizes": true,
       "category": 1,
@@ -1985,7 +1984,7 @@
     "fields": {
       "sku": "sho00011",
       "name": "Mono Mono",
-      "description": "Monochrome ankle boots with block heel",
+      "description": "Monochrome ankle boots with block heel.",
       "price": 54.99,
       "has_sizes": true,
       "category": 1,
@@ -2000,7 +1999,7 @@
     "fields": {
       "sku": "sho00012",
       "name": "Croc Print",
-      "description": "Knee high, green, patent leather, croc embossed boots",
+      "description": "Knee high, green, patent leather, croc embossed boots.",
       "price": 109.99,
       "has_sizes": true,
       "category": 1,
@@ -2015,7 +2014,7 @@
     "fields": {
       "sku": "sho00013",
       "name": "Wild West",
-      "description": "Brown leather, cowboy style boots with block heel. 100% real leather",
+      "description": "Brown leather, cowboy style boots with block heel. 100% real leather.",
       "price": 169.99,
       "has_sizes": true,
       "category": 1,
@@ -2045,7 +2044,7 @@
     "fields": {
       "sku": "sho00015",
       "name": "Sea Breeze",
-      "description": "Patent blue and aqua peeptoe shoes with gold insole and stiletto heel",
+      "description": "Patent blue and aqua peeptoe shoes with gold insole and stiletto heel.",
       "price": 59.99,
       "has_sizes": true,
       "category": 1,
@@ -2074,8 +2073,8 @@
     "model": "products.product",
     "fields": {
       "sku": "sho00017",
-      "name": "Pink Platorm",
-      "description": "Wedge, platform, lace-up boot with velcro strap in pink",
+      "name": "Pink Platform",
+      "description": "Wedge, platform, lace-up boot with velcro strap in pink.",
       "price": 49.99,
       "has_sizes": true,
       "category": 1,
@@ -2090,7 +2089,7 @@
     "fields": {
       "sku": "sho00018",
       "name": "Green Sateen",
-      "description": "Green satin, side cut out heels",
+      "description": "Green satin, side cut out heels.",
       "price": 52.99,
       "has_sizes": true,
       "category": 1,
@@ -2105,7 +2104,7 @@
     "fields": {
       "sku": "sho00019",
       "name": "Queen of Hearts",
-      "description": "Grey ankle boot with metallic red and black print, red frill detail and stiletto heel",
+      "description": "Grey ankle boot with metallic red and black print, red frill detail and stiletto heel.",
       "price": 69.99,
       "has_sizes": true,
       "category": 1,
@@ -2180,7 +2179,7 @@
     "fields": {
       "sku": "sho00024",
       "name": "Forget Me Not",
-      "description": "Blue, suede effect heels with ribbon lace-up and tie straps",
+      "description": "Blue, suede effect heels with ribbon lace-up and tie straps.",
       "price": 63.99,
       "has_sizes": true,
       "category": 1,
@@ -2210,7 +2209,7 @@
     "fields": {
       "sku": "sho00026",
       "name": "Wikka Woo",
-      "description": "Baby blue, vintage style, lace up boots. 100% real leather",
+      "description": "Baby blue, vintage style, lace up boots. 100% real leather.",
       "price": 85.99,
       "has_sizes": true,
       "category": 1,
@@ -2255,7 +2254,7 @@
     "fields": {
       "sku": "sho00029",
       "name": "Roxy Boot",
-      "description": "Velvet look, hot pink ankle boots with side zipper and block heel",
+      "description": "Velvet look, hot pink ankle boots with side zipper and block heel.",
       "price": 59.99,
       "has_sizes": true,
       "category": 1,
@@ -2270,7 +2269,7 @@
     "fields": {
       "sku": "swi00001",
       "name": "Bekka Bikini",
-      "description": "Peach halter neck, drawstring top and black and white patterned, full short bottoms",
+      "description": "Peach halter neck, drawstring top and black and white patterned, full short bottoms.",
       "price": 35.99,
       "has_sizes": true,
       "category": 4,
@@ -2299,7 +2298,7 @@
     "model": "products.product",
     "fields": {
       "sku": "swi00003",
-      "name": "Jenna",
+      "name": "Jenna Bikini",
       "description": "Black and white striped halter top with hot pink pattern and black tie string bottoms.",
       "price": 32.99,
       "has_sizes": true,
@@ -2315,7 +2314,7 @@
     "fields": {
       "sku": "swi00004",
       "name": "Aztec",
-      "description": "Bandeau style patterned top and matching low rise bottoms",
+      "description": "Bandeau style patterned top and matching low rise bottoms.",
       "price": 27.99,
       "has_sizes": true,
       "category": 4,
@@ -2405,7 +2404,7 @@
     "fields": {
       "sku": "swi00010",
       "name": "Black Beauty",
-      "description": "Black 2 piece with bodice style top and tanga bottoms",
+      "description": "Black 2 piece with bodice style top and tanga bottoms.",
       "price": 39.99,
       "has_sizes": true,
       "category": 4,
@@ -2435,7 +2434,7 @@
     "fields": {
       "sku": "swi00012",
       "name": "Cherry Bomb",
-      "description": "Red halterneck 2 piece with tie strings",
+      "description": "Red halterneck 2 piece with tie strings.",
       "price": 31.99,
       "has_sizes": true,
       "category": 4,
@@ -2453,7 +2452,7 @@
       "description": "Balloon sleeved, loose fit, white blouse with tapered cuffs.",
       "price": 35.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 17,
       "image_url": "https://images.unsplash.com/photo-1604994183234-a311cba28474?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
       "image": "top1.png"
@@ -2465,10 +2464,10 @@
     "fields": {
       "sku": "top00002",
       "name": "Bowie T-shirt",
-      "description": "Black, relaxed fit, Bowie T-shirt",
+      "description": "Black, relaxed fit, Bowie T-shirt.",
       "price": 24.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 16,
       "image_url": "https://images.unsplash.com/photo-1585940220991-3ee52f287bde?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1347&q=80",
       "image": "top2.png"
@@ -2480,10 +2479,10 @@
     "fields": {
       "sku": "top00003",
       "name": "Icons T-shirt",
-      "description": "Black, relaxed fit, Audrey and Marilyn T-shirt",
+      "description": "Black, relaxed fit, Audrey and Marilyn T-shirt.",
       "price": 24.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 16,
       "image_url": "https://images.unsplash.com/photo-1567181389426-28c6c17023d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
       "image": "top3.png"
@@ -2495,10 +2494,10 @@
     "fields": {
       "sku": "top00004",
       "name": "Dreamer T-shirt",
-      "description": "White, relaxed fit, Dreamer T-shirt",
+      "description": "White, relaxed fit, Dreamer T-shirt.",
       "price": 27.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 16,
       "image_url": "https://images.unsplash.com/photo-1569033083669-a63ea13bc769?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=925&q=80",
       "image": "top4.png"
@@ -2513,7 +2512,7 @@
       "description": "White tank with rainbow.",
       "price": 25.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 16,
       "image_url": "https://images.unsplash.com/photo-1532884592505-a33f93801866?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1397&q=80",
       "image": "top5.png"
@@ -2528,7 +2527,7 @@
       "description": "White, broad shoulder, sleeveless T-shirt.",
       "price": 29.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 16,
       "image_url": "https://images.unsplash.com/photo-1598554793905-075f7b355cd9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80",
       "image": "top6.png"
@@ -2540,10 +2539,10 @@
     "fields": {
       "sku": "top00007",
       "name": "Sparkle Sparkle",
-      "description": "Purple iridescent, long sleeved top",
+      "description": "Purple iridescent, long sleeved top.",
       "price": 37.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 17,
       "image_url": "https://images.unsplash.com/photo-1586226177071-5e6a0e462d11?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=680&q=80",
       "image": "top7.png"
@@ -2558,7 +2557,7 @@
       "description": "Black button up crop top, long loose sleeves with tapered cuffs.",
       "price": 34.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 17,
       "image_url": "https://images.unsplash.com/photo-1582665604603-5dbd6cd3fa02?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=619&q=80",
       "image": "top8.png"
@@ -2573,7 +2572,7 @@
       "description": "Multicolur, striped, ribbed, fitted long-sleeved top.",
       "price": 42.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 17,
       "image_url": "https://images.pexels.com/photos/1416423/pexels-photo-1416423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "image": "top9.png"
@@ -2585,10 +2584,10 @@
     "fields": {
       "sku": "top00010",
       "name": "Roar!",
-      "description": "Satin look, animal print string top",
+      "description": "Satin look, animal print string top.",
       "price": 26.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 17,
       "image_url": "https://images.unsplash.com/photo-1614651211255-83b51ab66ebd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=700&q=80",
       "image": "top10.png"
@@ -2603,7 +2602,7 @@
       "description": "Leather look, exaggerated puff shoulders with plunging neckline in black.",
       "price": 47.99,
       "has_sizes": true,
-      "category": 7,
+      "category": 3,
       "subcategory": 17,
       "image_url": "https://images.unsplash.com/photo-1568251478083-32c27296c2c2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1326&q=80",
       "image": "top11.png"

@@ -1,0 +1,27 @@
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+   
+    <li class="breadcrumb-item"><a href="">{{category.friendly_name}}</a></li>
+    {% if subcategory %}
+    <li class="breadcrumb-item"><a href="">{{subcategory.friendly_name}}</a></li>
+    {% endif %}
+    <li class="breadcrumb-item" aria-current="page">{{product.name}}</li>
+  </ol>
+</nav>
+<!--
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">category</a></li>
+    <li class="breadcrumb-item active" aria-current="page">name</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+-->
