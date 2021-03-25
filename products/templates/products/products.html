@@ -17,8 +17,19 @@
 
         <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="logo">Products</h2>
-                <hr class="w-50 mb-1">
+                {% for category in current_categories %}
+                <h2 class="logo">{{category.friendly_name}}</h2>
+                {% endfor %}
+                 {% for subcategory in current_subcategories %}
+                  <a class="category-badge text-decoration-none" href="{% url 'products' %}?subcategory={{subcategory.name }}">
+                        <span class="p-2 mt-2 badge badge-white  rounded-0 border-dark">{{ subcategory.friendly_name }}</span>
+                    </a>
+                 {% endfor %}
+               
+    
+              <!--   <h2 class="logo">Products</h2> 
+               
+                <hr class="w-50 mb-1">-->
             </div>
         </div>
          

@@ -177,10 +177,10 @@ input[name='q']::placeholder {
     margin-bottom: 50px;
 }
 .carousel-cell {
-    width: 33%;
+    width: 25%;
     margin-right:10px; 
-    max-height: 320px; 
-    min-height: 280px; 
+    max-height: 250px; 
+    min-height: 220px; 
 }
 
 

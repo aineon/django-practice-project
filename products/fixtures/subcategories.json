@@ -4,6 +4,7 @@
     "model": "products.subcategory",
     "fields": {
       "name": "mini",
+      "slug": "mini",
       "friendly_name": "Mini",
       "category": 2
     }
@@ -13,6 +14,7 @@
      "model": "products.subcategory",
     "fields": {
       "name": "midi",
+      "slug": "midi",
       "friendly_name": "Midi",
       "category": 2
     }
@@ -22,6 +24,7 @@
    "model": "products.subcategory",
     "fields": {
       "name": "maxi",
+      "slug": "maxi",
       "friendly_name": "Maxi",
       "category": 2
     }
@@ -31,6 +34,7 @@
     "model": "products.subcategory",
     "fields": {
       "name": "heels",
+      "slug": "heels",
       "friendly_name": "Heels",
       "category": 1
     }
@@ -40,6 +44,7 @@
     "model": "products.subcategory",
     "fields": {
       "name": "flats",
+      "slug": "flats",
       "friendly_name": "Flats",
       "category": 1
     }
@@ -49,6 +54,7 @@
   "model": "products.subcategory",
     "fields": {
       "name": "boots",
+      "slug": "boots",
       "friendly_name": "Boots",
       "category": 1
     }
@@ -58,6 +64,7 @@
    "model": "products.subcategory",
     "fields": {
       "name": "jumpsuits",
+      "slug": "jumpsuits",
       "friendly_name": "Jumpsuits & Dungarees",
       "category": 6
     }
@@ -67,6 +74,7 @@
     "model": "products.subcategory",
     "fields": {
       "name": "joggers",
+      "slug": "joggers",
       "friendly_name": "Joggers",
       "category": 6
     }
@@ -75,8 +83,9 @@
     "pk": 9,
     "model": "products.subcategory",
     "fields": {
-      "name": "trousers",
-      "friendly_name": "Trousers",
+      "name": "pants",
+      "slug": "pants",
+      "friendly_name": "Pants",
       "category": 6
     }
   },
@@ -85,6 +94,7 @@
     "model": "products.subcategory",
     "fields": {
       "name": "sunglasses",
+      "slug": "sunglasses",
       "friendly_name": "Sunglasses",
       "category": 5
     }
@@ -94,6 +104,7 @@
      "model": "products.subcategory",
      "fields": {
       "name": "earrings",
+      "slug": "earrings",
       "friendly_name": "Earrings",
       "category": 5
     }
@@ -103,6 +114,7 @@
      "model": "products.subcategory",
      "fields": {
       "name": "necklaces",
+      "slug": "necklaces",
       "friendly_name": "Necklaces",
       "category": 5
     }
@@ -112,6 +124,7 @@
      "model": "products.subcategory",
      "fields": {
       "name": "bracelets",
+      "slug": "bracelets",
       "friendly_name": "Bracelets & Bangles",
       "category": 5
     }
@@ -121,6 +134,7 @@
     "model": "products.subcategory",
      "fields": {
       "name": "one_piece",
+      "slug": "one_piece",
       "friendly_name": "One Piece",
       "category": 4
     }
@@ -130,6 +144,7 @@
     "model": "products.subcategory",
      "fields": {
       "name": "two_piece",
+      "slug": "two_piece",
       "friendly_name": "Two Piece",
       "category": 4
     }
@@ -139,6 +154,7 @@
     "model": "products.subcategory",
      "fields": {
       "name": "tshitrs",
+      "slug": "tshirts",
       "friendly_name": "Ts",
       "category": 3
     }
@@ -148,6 +164,7 @@
     "model": "products.subcategory",
      "fields": {
       "name": "tops",
+      "slug": "tops",
       "friendly_name": "Tops",
       "category": 3
     }
@@ -157,6 +174,7 @@
     "model": "products.subcategory",
      "fields": {
       "name": "bags",
+      "slug": "bags",
       "friendly_name": "Bags",
       "category": 5
     }

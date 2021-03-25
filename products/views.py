@@ -1,4 +1,4 @@
-from django.shortcuts import render, reverse, redirect, get_object_or_404
+from django.shortcuts import render, reverse, redirect, get_object_or_404, get_list_or_404
 from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
@@ -34,7 +34,10 @@ def all_products(request):
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
+            # category = request.GET['category']
             categories = Category.objects.filter(name__in=categories)
+            subcategories = Subcategory.objects.filter(category__in=categories)
+            print(subcategories)
 
         if 'subcategory' in request.GET:
             subcategories = request.GET['subcategory'].split(',')
@@ -49,7 +52,7 @@ def all_products(request):
                 return redirect(reverse('products'))
 
             queries = Q(name__icontains=query) | Q(
-                                                description__icontains=query)
+                        description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'

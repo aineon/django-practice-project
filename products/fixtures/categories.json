@@ -4,6 +4,7 @@
     "model": "products.category",
     "fields": {
       "name": "footwear",
+      "slug": "footwear",
       "friendly_name": "Footwear"
     }
   },
@@ -12,6 +13,7 @@
     "model": "products.category",
     "fields": {
       "name": "dresses",
+      "slug": "dresses",
       "friendly_name": "Dresses & Skirts"
     }
   },
@@ -20,6 +22,7 @@
     "model": "products.category",
     "fields": {
       "name": "tops_ts",
+      "slug": "tops-ts",
       "friendly_name": "Tops & Ts"
     }
   }, 
@@ -28,6 +31,7 @@
     "model": "products.category",
     "fields": {
       "name": "swimwear",
+      "slug": "swimwear",
       "friendly_name": "Swimwear"
     }
   },
@@ -37,6 +41,7 @@
     "model": "products.category",
     "fields": {
       "name": "accessories",
+      "slug": "accessories",
       "friendly_name": "Accessories"
     }
   },
@@ -45,6 +50,7 @@
     "model": "products.category",
     "fields": {
       "name": "bottoms",
+      "slug": "bottoms",
       "friendly_name": "Bottoms"
     }
   },
@@ -53,6 +59,7 @@
     "model": "products.category",
     "fields": {
       "name": "outerwear",
+      "slug": "outerwear",
       "friendly_name": "Outerwear"
     }
   }
