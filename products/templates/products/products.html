@@ -23,7 +23,7 @@
                         <span class="p-2 mb-2 mt-2 category-badge rounded-0 text-center">{{category.friendly_name }}</span>
                     </a> 
                 {% else %}
-                    <h2 class="logo">{{category.friendly_name}}</h2>
+                    <h2 class="logo mb-4">{{category.friendly_name}}</h2>
                 {% for subcategory in current_subcategories %}
                     <a class="text-decoration-none badge mb-2 mt-2" href="{% url 'products' %}?subcategory={{subcategory.name }}">
                         <span class="p-2 mt-2 category-badge rounded-0">{{ subcategory.friendly_name }}</span>
@@ -115,11 +115,36 @@
                 </div>
             </div>
         </div>
+
+        <div class="scroll-btn hide">
+            <a class="scroll-link d-flex h-100 text-decoration-none" title="back to top">
+                <i class="fas fa-angle-double-up grey-icon mx-auto my-auto"></i>
+            </a>	
+        </div>
     </div>
 {% endblock %}
 
 {% block postloadjs %}
     {{ block.super }} 
+    
+    <script type="text/javascript">
+    
+   
+  $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-btn').removeClass('hide');
+        } else {
+            $('.scroll-btn').addClass('hide');
+        }
+    });
+    
+    //Click event to scroll to top
+    $('.scroll-btn').click(function(){
+        window.scrollTo(0,0)
+    });
+ 
+    </script>
+    
     <script type="text/javascript">
         $('#sort-selector').change(function() {
             var selector = $(this);
