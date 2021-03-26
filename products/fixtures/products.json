@@ -26,7 +26,7 @@
       "price": 49.99,
       "has_sizes": false,
       "category": 5,
-      "subcategory": null,
+      "subcategory": 18,
       "image_url": "https://images.unsplash.com/photo-1591561954555-607968c989ab?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8MjE4NDg1MTB8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "image": "bag2.png"
     }

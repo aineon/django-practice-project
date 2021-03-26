@@ -264,12 +264,42 @@ input[name='q']::placeholder {
     font-size: 1.25rem;
 }
 
+.detail-icon {
+    font-size: .75rem;
+}
+
 .breadcrumb {
     margin-top: 20px;
     margin-left: 20px;
     background-color: #ee6aa7;
     font-weight: 500;
 }
+
+.category-badge {
+    color: #ee6aa7;
+    background-color: #c7cbcf;
+    border: 2px solid #ee6aa7;
+    margin-right: 7px;
+    font-size: 1.5rem;
+}
+
+a.badge > span.category-badge:hover {
+    background-color: #ee6aa7;
+    color: #c7cbcf;
+    border: 2px solid #c7cbcf;
+}
+
+a.back-link {
+    color: #ee6aa7 !important;
+}
+
+.custom-select {
+    color: #ee6aa7;
+    font-weight: 600;
+}
+ option {
+     font-weight: 600;
+ }
 
 footer {
     bottom: 0;
