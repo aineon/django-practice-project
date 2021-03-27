@@ -38,7 +38,6 @@ def all_products(request):
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
             subcategories = Subcategory.objects.filter(category__in=categories)
-            print(categories)
 
         if 'subcategory' in request.GET:
             subcategories = request.GET['subcategory'].split(',')
@@ -58,12 +57,19 @@ def all_products(request):
 
     current_sorting = f'{sort}_{direction}'
 
+    # if category_slug is not None:
+    # cat = Category.objects.get(slug=category_slug)
+    # if subcategory_slug is not None:
+    # subcat = Subcategory.objects.get(slug=subcategory_slug)
+
     context = {
         'products': products,
         'search_term': query,
         'current_categories': categories,
         'current_subcategories': subcategories,
         'current_sorting': current_sorting,
+        # 'cat': cat,
+        # 'subcat': subcat,
     }
 
     return render(request, 'products/products.html', context)

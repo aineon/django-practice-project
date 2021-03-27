@@ -311,7 +311,19 @@ a.back-link {
     font-weight: 600;
 }
  option {
-     font-weight: 600;
+     font-weight: 500;
+}
+
+option[selected],
+#id_product_size_c,
+#id_product_size {
+     color: #ee6aa7;
+}
+
+#sort-selector,
+#id_product_size,
+#id_product_size_c { 
+     font-weight: 700;
 }
 
 .grey-icon {
@@ -360,6 +372,7 @@ a.back-link {
     background-color: black;
     color: #ee6aa7; 
 }
+
 
 footer {
     bottom: 0;

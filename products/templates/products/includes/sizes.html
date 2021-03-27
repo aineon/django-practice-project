@@ -1,0 +1,30 @@
+{% if product.category.name == 'footwear' %}
+    <div class="col-12 text-pink">
+       <p><strong>select size:</strong></p>
+         <select class="form-control w-50 text-pink font-weight-bold" name="product_size" id="id_product_size">
+           <option class="text-pink" value="3">3</option>
+           <option class="text-pink" value="4">4</option>
+           <option class="text-pink" value="5" selected>5</option>
+           <option class="text-pink" value="6">6</option>
+           <option class="text-pink" value="7">7</option>
+         </select>
+        <small> sizes are UK sizes</small>
+     </div>
+{% endif %}
+
+{% if product.category.name != 'footwear' and product.category.name != 'accessories' %}
+    <div class="col-12 text-pink">
+       <p><strong>select size:</strong> </p>
+         <select class="form-control w-50 text-pink" name="product_size_c" id="id_product_size_c">
+           <option class="text-pink" value="4">4</option>
+           <option class="text-pink" value="6">6</option>
+           <option class="text-pink" value="8" selected>8</option>
+           <option class="text-pink" value="10">10</option>
+           <option class="text-pink" value="12">12</option>
+           <option class="text-pink" value="14">14</option>
+           <option class="text-pink" value="16">16</option>
+           <option class="text-pink" value="18">18</option>
+         </select>
+        <small> sizes are UK sizes</small>
+     </div>
+{% endif %}
