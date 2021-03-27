@@ -20,8 +20,10 @@ class Category(models.Model):
         return self.friendly_name
 
     def get_absolute_url(self):
-        return reverse('product_categories',
-                       kwargs={'category.slug': self.slug})
+        kwargs = {
+            'category_slug': self.slug,
+            }
+        return reverse('product_categories', kwargs=kwargs)
 
 
 class Subcategory(models.Model):
@@ -43,8 +45,11 @@ class Subcategory(models.Model):
         return self.friendly_name
 
     def get_absolute_url(self):
+        kwargs = {
+            'subcategory_slug': self.slug
+            }
         return reverse('product_subcategories',
-                       kwargs={'subcategory.slug': self.slug})
+                       kwargs=kwargs)
 
 
 class Product(models.Model):
@@ -66,4 +71,7 @@ class Product(models.Model):
         return self.name
 
     def get_absolute_url(self):
-        return reverse('product_detail', kwargs={'product.slug': self.slug})
+        kwargs = {
+            'product.slug': self.slug,
+        }
+        return reverse('product_detail', kwargs=kwargs)

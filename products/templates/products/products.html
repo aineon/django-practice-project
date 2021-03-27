@@ -30,12 +30,16 @@
                     </a>  
                 {% endfor %}
                 {% endif %}
+               
             {% endfor %}
                 {% for subcategory in current_subcategories %}
                     {% if current_subcategories|length == 1 %}
                         <h2 class="logo mt-2">{{subcategory.friendly_name}}</h2>
                     {% endif %}
                 {% endfor %}
+                {% if current_categories|length == 0 and current_subcategories|length == 0 %}
+                <h2 class="logo mt-2">All Products</h2>
+                {% endif %}
             </div>
         </div>
 

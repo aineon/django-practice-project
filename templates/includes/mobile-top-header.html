@@ -18,7 +18,7 @@
                 <div class="input-group-append">
                     <button class="form-control form-control btn rounded-0" type="submit">
                         <span class="icon">
-                            <i class="fas fa-search"></i>
+                            <i class="fas fa-search pink-icon"></i>
                         </span>
                     </button>
                 </div>
@@ -46,7 +46,7 @@
     </div>
 </li>
 <li class="list-inline-item">
-    <a class="{% if grand_total %}font-weight-bold{% else %}{% endif %} nav-link mobile-link d-block d-lg-none" href="">
+    <a class="{% if grand_total %}font-weight-bold{% else %}{% endif %} nav-link mobile-link d-block d-lg-none" href="{% url 'view_bag' %}">
         <div class="text-center">
             <div><i class="mobile-icon fas fa-shopping-bag"></i></div>
         </div>

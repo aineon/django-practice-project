@@ -1,7 +1,7 @@
 <div class="rand-carousel-container d-none d-md-block">
     <div class="random-carousel" data-flickity='{ "wrapAround": true, "cellAlign": "left", "contain": true }'>
         {% for product in rand_products %}
-        <div class="carousel-cell random carousel-img">
+        <div class="carousel-cell-random carousel-img">
             <div>
                 {% if product.image %}
                 <a href="{% url 'product_detail' product.id %}">
