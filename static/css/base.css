@@ -337,6 +337,42 @@ option[selected],
      font-weight: 700;
 }
 
+.qty-btn {
+    background-color: #ee6aa7;
+    color: black;
+}
+
+.text-black {
+    color: black;
+}
+
+.update-link {
+    cursor: pointer;
+}
+
+a.update-link small:hover {
+    color: #ee6aa7;
+    font-weight: 700;
+}
+
+a.update-link:hover {
+    text-decoration: none;
+}
+
+.remove-item {
+    color: #85878a;
+    cursor: pointer;    
+}
+
+a.remove-item small:hover {
+    color: #85878a;
+    font-weight: 700;
+}
+
+a.remove-item:hover {
+    text-decoration: none;
+}
+
 .grey-icon {
     color: #c7cbcf;
 }
