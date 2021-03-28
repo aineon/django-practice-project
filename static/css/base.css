@@ -7,7 +7,7 @@ body {
   /*  height: calc(100vh - 164px); */
     background-color: #dee2e6;
     font-family: 'Quicksand', sans-serif;
-    height: 100vh;
+    height: 100%;
 }
 
 .header-container {
@@ -221,23 +221,34 @@ input[name='q']::placeholder {
     font-size: 1.5rem;
 }
 
+/*
 .random-carousel {
     height: auto;
 }
-
+*/
 .random-carousel .flickity-page-dots {
     display: none;
 }
+
+.carousel-cell-bag,
 .carousel-cell-random {
     width: 15%;
     margin-right: 10px;
-    height:180px;
 }
 
+.carousel-cell-bag {
+    height: 180px;
+}
+
+.carousel-cell-random {
+    height: 240px;
+    padding-bottom: 20px;
+}
+/*
 .rand-carousel-container {
     display: inline;
 }
-
+*/
 .carousel-header {
     color: #ee6aa7;
     font-weight: 700;
